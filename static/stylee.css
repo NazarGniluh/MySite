@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 10px ;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: ;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px ;
+    display: block;
+}
+nav a:hover {
+    background-color: black;
+}
+.container {
+    padding: 20px;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.product {
+    background: white;
+    border: 1px solid ;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.product img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.contact-form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+footer {
+    text-align: center;
+    padding: 10px ;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}

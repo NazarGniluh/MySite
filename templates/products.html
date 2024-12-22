@@ -5,8 +5,15 @@
 {% block content %}
 <h2>Наші товари</h2>
 <div class="products">
+    {% for product in products%}
     <div class="product">
-        <img src="images/tshirt.jpg" alt="Футболка">
+        <img src="{{ url_for('static', filename='img/'+product[5]) }}" alt="Футболка">
+        <h3>{{product[3]}}</h3>
+        <p>Ціна: {{product[2]}} грн</p>
+    </div>
+    {% endfor %}
+    <div class="product">
+        <img src="{{ url_for('static', filename='style.css') }}" alt="Футболка">
         <h3>Футболка</h3>
         <p>Ціна: 500 грн</p>
     </div>
