@@ -1,8 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Courier New", monospace;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #white;
 }
 header {
     background-color: black;
@@ -13,16 +13,16 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background-color: ;
+    background-color: whitesmoke;
 }
 nav a {
-    color: white;
+    color: saddlebrown;
     text-decoration: none;
     padding: 15px ;
     display: block;
 }
 nav a:hover {
-    background-color: black;
+    background-color: darkgray;
 }
 .container {
     padding: 20px;
@@ -34,7 +34,7 @@ nav a:hover {
     justify-content: center;
 }
 .product {
-    background: white;
+    background: whitesmoke;
     border: 1px solid ;
     border-radius: 5px;
     padding: 15px;
@@ -47,17 +47,16 @@ nav a:hover {
     border-radius: 5px;
 }
 .contact-form {
-    background: white;
+    background: black;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     margin: 20px auto;
 }
 footer {
     text-align: center;
     padding: 10px ;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     margin-top: 20px;
 }
